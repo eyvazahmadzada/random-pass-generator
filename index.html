@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Random Password Generator</title>
+        <link href="https://fonts.googleapis.com/css?family=Sunflower:300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./randompass.css">
+    </head>
+    <body>
+        <h1>Random Password Generator</h1>
+        <form action="" name="passGen">
+            <input type="text" size="18" name="output">
+            <input type="button" class="btn btn-primary" onclick="populateform(this.form.length.value)" value="Generate Password"><br><br>
+            <div><b>Your password must be greater than or equal to 6!</b></div>
+            <strong>Length of the password:</strong> <input class="length" name="length" type="number" value="6" min="6">
+        </form>
+        <script src="./script.js"></script>
+    </body>
+</html>

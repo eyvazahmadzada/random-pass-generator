@@ -1,0 +1,49 @@
+body {
+    background: rgba(212,228,239,1);
+    background: -moz-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 58%, rgba(134,174,204,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(212,228,239,1)), color-stop(58%, rgba(134,174,204,1)), color-stop(100%, rgba(134,174,204,1)));
+    background: -webkit-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 58%, rgba(134,174,204,1) 100%);
+    background: -o-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 58%, rgba(134,174,204,1) 100%);
+    background: -ms-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 58%, rgba(134,174,204,1) 100%);
+    background: linear-gradient(to right, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 58%, rgba(134,174,204,1) 100%);
+    margin-top: 100px;
+    font-size: 18px;
+    font-family: 'Sunflower', sans-serif;
+    width: 700px;
+    height: 700px;
+    text-align: center;
+    margin: 100px auto;
+}
+h1 {
+    padding: 20px;
+    background: rgba(242,246,248,1);
+    background: -moz-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 19%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(242,246,248,1)), color-stop(19%, rgba(216,225,231,1)), color-stop(51%, rgba(181,198,208,1)), color-stop(100%, rgba(224,239,249,1)));
+    background: -webkit-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 19%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+    background: -o-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 19%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+    background: -ms-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 19%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+    background: linear-gradient(to right, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 19%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+    color: #025AA5;
+    border-radius: 5px;
+}
+input {
+    vertical-align: middle;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    border: 1px solid transparent;
+    line-height: normal;
+    margin-top: 20px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+.length {
+    width: 72px;
+    vertical-align: initial;
+    height: 30px;
+}
+strong {
+    vertical-align: middle;
+    margin-top: 10px;
+}
